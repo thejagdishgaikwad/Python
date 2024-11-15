@@ -1,3 +1,4 @@
+#Write a python program to find out whether the input number is Armstrong or not
 num = int(input("Enter a no : "))
 no_of_digits = len(str(num))
 sum_of_powers = 0

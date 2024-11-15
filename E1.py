@@ -1,3 +1,4 @@
+# Write a python program to count the number of even and odd numbers from a series of numbers.
 number = [20, 7, 13, 22, 23, 9]
 
 odd_count = 0
