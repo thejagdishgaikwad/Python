@@ -1,3 +1,4 @@
+#"Write a python program to check if a list contains a palindrome of elemebts or not"
 Data = []
 Data.append(int(input("Enter the data element 1:")))
 Data.append(int(input("Enter the data element 2:")))
