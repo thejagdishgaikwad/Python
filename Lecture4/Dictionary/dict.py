@@ -1,11 +1,17 @@
 name = input("Enter Your Name :")
 age  = int(input("Enter Your Age :"))
-marks= float(input("Enter Your Marks :"))
+Mathematics = float(input("Enter Mathematics Marks :"))
+Physics = float(input("Enter Physics Marks :"))
+Chemistry = float(input("Enter Chemistry Marks :"))
 
 Data = {
     "Name" : name,
     "Age" : age,
-    "Marks" : marks,
+    "Marks" : {
+        "maths " : Mathematics, 
+        "physics " : Physics,
+        "chemistry " : Chemistry,
+    }
 }
 print(Data)
 print(type(Data))
