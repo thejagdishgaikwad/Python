@@ -13,6 +13,7 @@ Data = {
         "chemistry " : Chemistry,
     }
 }
+Data["Surname"] = "Gaikwad"
 print(Data)
 print(type(Data))
 print("The Marks From Data :",Data["Marks"])
