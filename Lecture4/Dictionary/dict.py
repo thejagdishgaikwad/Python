@@ -8,12 +8,12 @@ Data = {
     "Name" : name,
     "Age" : age,
     "Marks" : {
-        "maths " : Mathematics, 
-        "physics " : Physics,
-        "chemistry " : Chemistry,
+        "maths" : Mathematics, 
+        "physics" : Physics,
+        "chemistry" : Chemistry,
     }
 }
 Data["Surname"] = "Gaikwad"
-print(Data)
 print(type(Data))
 print("The Marks From Data :",Data["Marks"])
+print(Data ["Marks"] ["physics"])
