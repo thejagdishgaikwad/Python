@@ -1,0 +1,14 @@
+-- 1. Create a sample table
+CREATE TABLE IF NOT EXISTS users (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    email VARCHAR(50)
+);
+
+-- 2. Insert test data
+INSERT INTO users (id, name, email) 
+VALUES (1, 'Alice Smith', 'alice@example.com')
+ON CONFLICT (id) DO NOTHING; -- Use ON DUPLICATE KEY UPDATE for MySQL
+
+-- 3. Query the data to verify
+SELECT * FROM users;
